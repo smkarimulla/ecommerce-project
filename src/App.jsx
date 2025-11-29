@@ -4,6 +4,7 @@ import { Checkout } from './pages/Checkout'
 
 import './App.css'
 import { Orders } from './pages/Orders'
+import { Tracking } from './pages/Tracking'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Route index element={<HomePage />} />
       <Route path='/checkout' element={<Checkout />} />
       <Route path='/orders' element={<Orders />} />
+      <Route path='/tracking' element={<Tracking />} />
     </Routes>
   )
 }
